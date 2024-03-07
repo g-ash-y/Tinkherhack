@@ -1,0 +1,160 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+nav {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0%;
+  width: auto;
+  margin-left: 0%;
+  margin-right: 0%;
+
+
+}
+.logo img {
+  size: 100PX;
+  width:200px;
+  color: #ccc;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+li {
+  margin-right: 20px;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+a:hover {
+  background-color: #555;
+}
+a.active {
+  background-color: #555;
+}
+
+#timer {
+  margin-top: 20px;
+}
+
+#time {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+.image-container{
+  background-color: #afaeae;
+  text-align: center;
+  height:150px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.oc{
+  width: 70%;
+}
+.gallery{
+width: 900px;
+display: flex;
+overflow-x: scroll;
+}
+.gallery div{
+width: 100%;
+display: grid;
+grid-template-columns: auto auto auto;
+grid-gap:20px;
+padding: 10px;
+flex: none;
+}
+.gallery div img{
+width: 100%; 
+ filter:grayscale(100%);
+transition:  transform 0.5s;
+}
+.gallery::-webkit-scrollbar{
+display: none;
+}
+.gallery-wrap{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10% auto;
+}
+
+.gallery div img:hover{
+filter:grayscale(0);
+cursor: pointer;
+transform: scale(1.1);
+
+}
+nav {
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #555;
+}
+
+a.active {
+  background-color: #555;
+}
+.content {
+  /* Adjust the bottom padding to accommodate the fixed footer */
+  padding-bottom: 30px; /* Height of the fixed footer */
+}
+
+.footer {
+  position:relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
